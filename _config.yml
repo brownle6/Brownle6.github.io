@@ -15,7 +15,7 @@ title                    : "Lauren Brown"
 title_separator          : "-"
 subtitle                 : "Online Portfolio"
 name                     : &name "Lauren Brown" # &name is a YAML anchor which can be *referenced later
-description              : &description "Example website for class "
+description              : &description "Online Portfolio "
 url                      : https://davidflorianjr.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : 
@@ -103,7 +103,7 @@ author:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/Brownle6"
+      url: "https://github.com/DrD-Flo"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/dr.dflo"
