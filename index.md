@@ -10,10 +10,10 @@ header:
       url: "/portfolio/"
 excerpt: "Lauren Brown is a student-athlete in her second year at Vanderbilt studying Architecture/Built Environment with minors in Digital Fabrication and Art History, as well as being a member of Vanderbilt's D1 women's lacrosse program."
 feature_row:
-  - image_path: assets/img/CNC-Mill-Thumbnail.jpg
-    alt: "CNC Mill"
-    title: "Custom CNC Milling Machine"
-    excerpt: "Built for fabricating aluminum and steel parts."
+  - image_path: /assets/img/duomo.png
+    alt: "Resin Printed Architectural Model"
+    title: "Resin Printed Architectural Model"
+    excerpt: "Clear resin 3D print using FormLabs printer."
   - image_path: assets/img/Plasma-Cutter-Banner.jpg
     alt: "placeholder image 2"
     title: "DIY Plasma Cutter"
