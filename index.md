@@ -18,9 +18,9 @@ feature_row:
     alt: "placeholder image 2"
     title: "3D Printed Phone Case"
     excerpt: "TPU (95A) printed case, custom fit to iPhone model."
-  - image_path: assets/img/Zidex-Thumbnail.jpg
-    title: "Bespoke IDEX 3D Printer"
-    excerpt: "Multimaterial printing. "
+  - image_path: /assets/img/business-card.png
+    title: "Laser Cut Business Card"
+    excerpt: "Scannable QR code on the back for contact information."
 ---
 
 {% include feature_row %}
