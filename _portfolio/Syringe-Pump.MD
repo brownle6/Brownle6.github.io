@@ -1,6 +1,6 @@
 ---
 title: "Syringe Pump Project"
-excerpt: "A DIY cost-effective alternative to commercial variants that cost several hundreds dollars for entry level models. Capable of 1 uL / min flow rate up to 10 mL / min"
+excerpt: "A DIY, cost-effective alternative to expensive, entry-level modeled commercial variants. Capable of 1 uL / min flow rate up to 10 mL / min"
 header:
   image: /assets/img/syringe-pump-project.png  
 teaser: /assets/img/syringe-pump-project.png 
