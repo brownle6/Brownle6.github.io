@@ -61,6 +61,7 @@ gallery:
 | Syringe End Support | 1 | 
 | Regular End Support | 1 | 
 | Enclosure | 1 | 
+| Enclosure Lid | 1 |
 | Remote Box Lid | 1 | 
 | Remote Box | 1 | 
 
