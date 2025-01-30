@@ -14,10 +14,10 @@ feature_row:
     alt: "Resin Printed Architectural Model"
     title: "Resin Printed Architectural Model"
     excerpt: "Clear resin 3D print using FormLabs printer."
-  - image_path: assets/img/Plasma-Cutter-Banner.jpg
+  - image_path: /assets/img/phone-case.png
     alt: "placeholder image 2"
-    title: "DIY Plasma Cutter"
-    excerpt: "A hot plasma stream slices through sheet metal."
+    title: "3D Printed Phone Case"
+    excerpt: "TPU (95A) printed case, custom fit to iPhone model."
   - image_path: assets/img/Zidex-Thumbnail.jpg
     title: "Bespoke IDEX 3D Printer"
     excerpt: "Multimaterial printing. "
