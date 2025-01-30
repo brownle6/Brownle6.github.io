@@ -31,4 +31,25 @@ gallery:
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a41d57d79980bb9458?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
+# Off-the-Shelf Parts Required
+| Part | Quantity Required |
+| :-- | :-- |
+| 250 mm lead screw with 2 mm pitch and 2 mm lead | 1 |
+| 250 mm lead screw with 2 mm pitch and 8 mm lead | 1 | 
+| 1/4" x 8mm Flexible Coupling | 1 |
+| 200 mm linear rod with 8 mm diameter | 2 |
+| LM8UU linear bearing for 8 mm diameter rod | 2 |
+| 2040 aluminum extrusion 1' length | 1 | 
+| nema 17 stepper motor | 1 | 
+| MEAN WELL RQ-65D AC-DC power supply quad output 5V 12V 24V 12V 4 Amp | 1 | 
+| Arduino Uno | 1 | 
+| A4988 Stepper Driver | 1 | 
+| small breadboard | 1 | 
+| panel mount latching push buttons (on/off | 1 | 
+| panel mount momentary push buttons | 1 |
+| limit switch | 1 | 
+| RBG common cathode LED | supplied by group |
+
+# 3D Printed Parts Required
+
 {% include gallery caption="Dimensioned Drawings" %}
