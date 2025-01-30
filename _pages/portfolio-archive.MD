@@ -10,4 +10,4 @@ classes: wide
 My digital fabrication projects:
 
 feature_row:
-  - image_path: 
+  - image_path: /assets/img/syringe-pump-project.png
