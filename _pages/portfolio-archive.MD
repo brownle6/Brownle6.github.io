@@ -8,3 +8,6 @@ classes: wide
 ---
 
 My digital fabrication projects:
+
+feature_row:
+  - image_path: 
