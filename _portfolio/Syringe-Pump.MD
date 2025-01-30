@@ -31,6 +31,7 @@ gallery:
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a41d57d79980bb9458?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
+
 # Off-the-Shelf Parts Required
 
 | Part | Quantity Required |
@@ -52,5 +53,14 @@ gallery:
 | RBG common cathode LED | supplied by group |
 
 # 3D Printed Parts Required
+| Part | Quantity Required |
+| :-- | :-- |
+| Carriage | 1 | 
+| Motor Mounting Plate | 1 | 
+| Syringe End Support | 1 | 
+| Regular End Support | 1 | 
+| Enclosure | 1 | 
+| Remote Box Lid | 1 | 
+| Remote Box | 1 | 
 
 {% include gallery caption="Dimensioned Drawings" %}
