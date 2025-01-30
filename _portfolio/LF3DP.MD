@@ -2,8 +2,8 @@
 title: "Syringe Pump Project from DF-2100"
 excerpt: "A designed, programmed, 3D-printed, and cost effective alternative to commercial variants that cost several hundreds dollars for entry level models."
 header:
-  image: /assets/img/Screenshot2025-01-29at11.33.48PM.png
-  teaser: /assets/img/Large-Format-3D-Printer-Thumbnail.png
+  image: /assets/img/syringe-pump-project.png  
+teaser: /assets/img/Large-Format-3D-Printer-Thumbnail.png
 gallery:
   - image_path: assets/img/Slide-3.png
   - image_path: assets/img/Slide-2.png
