@@ -3,7 +3,7 @@ title: "Syringe Pump Project"
 excerpt: "A DIY designed, programmed, 3D-printed, and cost effective alternative to commercial variants that cost several hundreds dollars for entry level models. Capable of 1 uL / min flow rate up to 10 mL / min"
 header:
   image: /assets/img/syringe-pump-project.png  
-teaser: /assets/img/Large-Format-3D-Printer-Thumbnail.png
+teaser: /assets/img/syringe-pump-project.png 
 gallery:
   - image_path: /assets/img/Carriage.png
   - image_path: /assets/img/End-Support.png
