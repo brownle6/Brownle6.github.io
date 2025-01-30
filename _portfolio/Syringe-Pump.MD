@@ -32,6 +32,7 @@ gallery:
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a41d57d79980bb9458?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 # Off-the-Shelf Parts Required
+
 | Part | Quantity Required |
 | :-- | :-- |
 | 250 mm lead screw with 2 mm pitch and 2 mm lead | 1 |
