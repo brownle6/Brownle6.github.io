@@ -6,9 +6,12 @@ header:
 teaser: /assets/img/Large-Format-3D-Printer-Thumbnail.png
 gallery:
   - image_path: /assets/img/Carriage.png
-  - image_path: assets/img/Slide-2.png
-  - image_path: assets/img/Slide-4.png
-   
+  - image_path: /assets/img/End-Support.png
+  - image_path: /assets/img/Enclosure.png
+  - image_path: /assets/img/Enclosure-Lid.png
+  - image_path: /assets/img/Remote-Box.png
+  - image_path: /assets/img/Remote-Box-Lid.png
+
 ---
 
 # Purpose/Features of the Design
