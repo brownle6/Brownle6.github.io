@@ -8,6 +8,7 @@ gallery:
   - image_path: /assets/img/liftingmold.png
   - image_path: /assets/img/mold.png
   - image_path: /assets/img/device.png
+  - image_path: /assets/img/figure1.png
 
 ---
 
@@ -36,4 +37,4 @@ gallery:
 
 # Multimedia
 
-{% include gallery caption="Microfluidic Device Mold and Casted Device" %}
+{% include gallery caption="Microfluidic Device Mold, Casted Device, and Figure 1" %}
