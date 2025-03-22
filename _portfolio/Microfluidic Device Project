@@ -2,15 +2,12 @@
 title: "Resin Printing of Microfluidic Device Molds"
 excerpt: "A DIY microfluidic device model capable of sorting particles with pinched flow fractation"
 header:
-  image: /assets/img/syringe-pump-project.png  
-teaser: /assets/img/syringe-pump-project.png 
+  image: /assets/img/cadmodel2.png  
+teaser: /assets/img/cadmodel.png 
 gallery:
-  - image_path: /assets/img/Carriage.png
-  - image_path: /assets/img/End-Support.png
-  - image_path: /assets/img/Enclosure.png
-  - image_path: /assets/img/Enclosure-Lid.png
-  - image_path: /assets/img/Remote-Box.png
-  - image_path: /assets/img/Remote-Box-Lid.png
+  - image_path: /assets/img/liftingmold.png
+  - image_path: /assets/img/mold.png
+  - image_path: /assets/img/device.png
 
 ---
 
@@ -38,6 +35,5 @@ gallery:
 * **For this project, we were asked to design a chip that is capable of sorting particles with pinch flow fractionation that fall within two size ranges: 1) 125 - 150 micrometers and 2) 425 - 500 micrometers. The geometry of my chip includes two inlets, a pinched section, a broad section, and three outlets for the particle sorting as well as a drain channel to reduce flow resistance. The size range of particle separation is mostly determined by specific distribution of flow rates in the input branches, and the quality of separation is influenced by the geometry of the pinch section and the transition from the pinch section to the broad section. In addition, the equation of each particle at exit is important: Y0 = (wp - d/2) wb/wp, shown in Figure 1, which explains the relationship between the particle diameter and the exit location of the particle in the broad section. It is crucial to note that if the channels are too close to the size of the particles, the device can clog. Because of this, I made sure that the pinch and broad section depths were at least 1.2 - 1.5 times the diameter of the largest particle, and I made the inlet and outlet channel depths 1.7 times the diameter of the largest particle. The pinch section of the model is where the particles and liquid flow meet together from the inlets to then shoot out into the broad section, so it is crucial for the pinch section to be very narrow, but still accommodate the particle size. Therefore, my pinch section is .750mm, or 750 microns wide, which is 1.5 times the diameter of the largest particle. It is also important for the broad section of the model to be as wide as possible, so I made it 19mm. I measured from the bottom edge of the broad section to make the dimensions for where my outlets should be for the small particle outlet and the large particle outlet. The small particle outlet should be higher than the large particle outlet. After calculating the precise locations, the small particles should come out 17.1 - 17.4mm from the bottom edge of the broad section, and the large particles should come out 12.6 - 13.61mm from that same edge. For my model, I made a slanted cut out in reference to the precise locations of the particle flows to help direct the small particles to the upper particle outlet, for the larger particles to be directed to the lower particle outlet, and for the non-particle flow to be able to drain at the lowest outlet. In addition, the beginning of each outlet is equidistant from the exit of the pinch section, and the entire broad section is the same depth to help ensure that the outlets receive the same flow rate to prevent disruptions to the streamlines and maintaining proper separation. After the results of testing the mold, I could have implemented more sorting outlets off of the broad section to more efficiently sort the small and large particles from one another.** 
 
 # Multimedia
-
 
 {% include gallery caption="Microfluidic Device Mold and Casted Device" %}
