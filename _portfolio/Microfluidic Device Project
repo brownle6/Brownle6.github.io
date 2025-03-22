@@ -32,42 +32,13 @@ gallery:
 
 # Discussion
 
+* **Resin printed molds are often coated with parylene prior to casting the PDMS (polydimethylsiloxane). PDMS is an elastomeric thermoset that is mixed together and poured into the mold, and it is a member of the silicone family, hence the rubber-like consistency. Here is some information to help explain why resin-printed molds are coated with parylene prior to casting the PDMS.  “The deposition of a thin layer of parylene, a polymer commonly used for medical device applications, renders 3D prints biocompatible and allows them to be used as master molds for elastomeric device fabrication. When placed in culture dishes containing human neurons, regardless of resin type, uncoated 3D prints leached toxic material to yield complete cell death within 48 hours, whereas cells exhibited unifor viability and healthy morphology out to 21 days if the prints were coated with parylene” (O’Grady, 2021). This strategy makes microfluidics more accessible to the biomedical research community. For my microfluidic sorter, a hypothetical application is particle separation based on particle size. Specifically, microfluidic sorting can be used for analyzing and isolating biological particles such as cells, extracellular vesicles, and viruses.**
+
+# Why My Model is Conducive to Sorting
+
+* **For this project, we were asked to design a chip that is capable of sorting particles with pinch flow fractionation that fall within two size ranges: 1) 125 - 150 micrometers and 2) 425 - 500 micrometers. The geometry of my chip includes two inlets, a pinched section, a broad section, and three outlets for the particle sorting as well as a drain channel to reduce flow resistance. The size range of particle separation is mostly determined by specific distribution of flow rates in the input branches, and the quality of separation is influenced by the geometry of the pinch section and the transition from the pinch section to the broad section. In addition, the equation of each particle at exit is important: Y0 = (wp - d/2) wb/wp, shown in Figure 1, which explains the relationship between the particle diameter and the exit location of the particle in the broad section. It is crucial to note that if the channels are too close to the size of the particles, the device can clog. Because of this, I made sure that the pinch and broad section depths were at least 1.2 - 1.5 times the diameter of the largest particle, and I made the inlet and outlet channel depths 1.7 times the diameter of the largest particle. The pinch section of the model is where the particles and liquid flow meet together from the inlets to then shoot out into the broad section, so it is crucial for the pinch section to be very narrow, but still accommodate the particle size. Therefore, my pinch section is .750mm, or 750 microns wide, which is 1.5 times the diameter of the largest particle. It is also important for the broad section of the model to be as wide as possible, so I made it 19mm. I measured from the bottom edge of the broad section to make the dimensions for where my outlets should be for the small particle outlet and the large particle outlet. The small particle outlet should be higher than the large particle outlet. After calculating the precise locations, the small particles should come out 17.1 - 17.4mm from the bottom edge of the broad section, and the large particles should come out 12.6 - 13.61mm from that same edge. For my model, I made a slanted cut out in reference to the precise locations of the particle flows to help direct the small particles to the upper particle outlet, for the larger particles to be directed to the lower particle outlet, and for the non-particle flow to be able to drain at the lowest outlet. In addition, the beginning of each outlet is equidistant from the exit of the pinch section, and the entire broad section is the same depth to help ensure that the outlets receive the same flow rate to prevent disruptions to the streamlines and maintaining proper separation. After the results of testing the mold, I could have implemented more sorting outlets off of the broad section to more efficiently sort the small and large particles from one another.** 
+
 # Multimedia
 
-# CAD Model
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a41d57d79980bb9458?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe> 
-
-# Off-the-Shelf Parts Required
-
-| Part | Quantity Required |
-| :-- | :-- |
-| 250 mm lead screw with 2 mm pitch and 2 mm lead | 1 |
-| 250 mm lead screw with 2 mm pitch and 8 mm lead | 1 | 
-| 1/4" x 8mm Flexible Coupling | 1 |
-| 200 mm linear rod with 8 mm diameter | 2 |
-| LM8UU linear bearing for 8 mm diameter rod | 2 |
-| 2040 aluminum extrusion 1' length | 1 | 
-| nema 17 stepper motor | 1 | 
-| MEAN WELL RQ-65D AC-DC power supply quad output 5V 12V 24V 12V 4 Amp | 1 | 
-| Arduino Uno | 1 | 
-| A4988 Stepper Driver | 1 | 
-| small breadboard | 1 | 
-| panel mount latching push buttons (on/off | 1 | 
-| panel mount momentary push buttons | 1 |
-| limit switch | 1 | 
-| RBG common cathode LED | supplied by group |
-
-# 3D Printed Parts Required
-
-| Part | Quantity Required |
-| :-- | :-- |
-| Carriage | 1 | 
-| Motor Mounting Plate | 1 | 
-| Syringe End Support | 1 | 
-| Regular End Support | 1 | 
-| Enclosure | 1 | 
-| Enclosure Lid | 1 |
-| Remote Box Lid | 1 | 
-| Remote Box | 1 | 
 
 {% include gallery caption="Dimensioned Drawings" %}
