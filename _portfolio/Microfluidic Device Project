@@ -38,3 +38,8 @@ gallery:
 # Multimedia
 
 {% include gallery caption="Microfluidic Device Mold, Casted Device, and Figure 1" %}
+
+# Works Cited 
+
+* **O’Grady, Brian J., Michael D. Geuy, Hyosung Kim, Kylie M. Balotin, Everett R. Allchin, David C. Florian, Neelansh N. Bute, et al. “Rapid Prototyping of Cell Culture Microdevices Using Parylene-Coated 3D Prints.” Lab on a Chip 21, no. 24 (2021): 4814–22. https://doi.org/10.1039/d1lc00744k.**
+* **Ashrafizadeh, Seyed Nezameddin, Mahdi Zare, and Mahdi Khatibi. “A Comprehensive Review of Pinch Flow Fractionation in Microfluidics: From Principles to Practical Applications.” Chemical Engineering and Processing - Process Intensification 208 (February 2025): 110087. https://doi.org/10.1016/j.cep.2024.110087.**
