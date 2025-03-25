@@ -7,7 +7,7 @@ teaser: /assets/img/pliersfullbody.png
 gallery:
   - image_path: /assets/img/plierswhite.png
   - image_path: /assets/img/pliersangle.png
-  - image_path: /assets/img/Enclosure.png
+  - image_path: /assets/img/pliers.GIF
   - image_path: /assets/img/Enclosure-Lid.png
   - image_path: /assets/img/Remote-Box.png
   - image_path: /assets/img/Remote-Box-Lid.png
