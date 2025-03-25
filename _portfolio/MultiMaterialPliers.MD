@@ -2,11 +2,11 @@
 title: "Multi-Material Pliers"
 excerpt: " "
 header:
-  image: /assets/img/syringe-pump-project.png  
-teaser: /assets/img/syringe-pump-project.png 
+  image: /assets/img/pliersteal.png  
+teaser: /assets/img/pliersfullbody.png 
 gallery:
-  - image_path: /assets/img/Carriage.png
-  - image_path: /assets/img/End-Support.png
+  - image_path: /assets/img/plierswhite.png
+  - image_path: /assets/img/pliersangle.png
   - image_path: /assets/img/Enclosure.png
   - image_path: /assets/img/Enclosure-Lid.png
   - image_path: /assets/img/Remote-Box.png
