@@ -1,10 +1,11 @@
 ---
 title: "Multi-Material Pliers"
-excerpt: " "
+excerpt: "Filament-Printed Multi-Material Print-in-Place Pliers without Excessive Pieces"
 header:
-  image: /assets/img/pliersteal.png  
+  image: /assets/img/pliersteal1.png  
 teaser: /assets/img/pliersfullbody.png 
 gallery:
+  - image_path: /assets/img/pliersfullbody.png
   - image_path: /assets/img/plierswhite.png
   - image_path: /assets/img/pliersangle.png
   - image_path: /assets/img/pliers.GIF
