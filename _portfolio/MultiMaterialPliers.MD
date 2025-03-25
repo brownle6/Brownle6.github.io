@@ -1,5 +1,5 @@
 ---
-title: "Multi-Material Pliers"
+title: "Filament-Printed Multi-Material Print-in-Place Pliers"
 excerpt: "Filament-Printed Multi-Material Print-in-Place Pliers without Excessive Pieces"
 header:
   image: /assets/img/pliersteal1.png  
@@ -64,4 +64,4 @@ gallery:
 | Remote Box Lid | 1 | 
 | Remote Box | 1 | 
 
-{% include gallery caption="Dimensioned Drawings" %}
+{% include gallery caption="Pliers with CAD Renderings" %}
