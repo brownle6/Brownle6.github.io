@@ -29,7 +29,7 @@ gallery:
 # Relevant Specifications
 
 # CAD Model
-<iframe src="https://vanderbilt643.autodesk360.com/g/shares/SH286ddQT78850c0d8a41251d409100d6278
+<iframe src="https://a360.co/3E4XTrG
 mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe> 
 
 # Off-the-Shelf Parts Required
