@@ -29,7 +29,7 @@ gallery:
 # Relevant Specifications
 
 # CAD Model
-<iframe src="https://a360.co/3E4XTrG
+<iframe src="https://a360.co/43qjHZj
 mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe> 
 
 # Off-the-Shelf Parts Required
