@@ -14,54 +14,17 @@ gallery:
 
 # Description
 
-* **What are Print-in-Place Parts?** Syringe pumps are motorized devices that mechanically insert a plunger to control fluid dispensation from a syringe. Many use stepper motors to precisely move the platform attached to the syringe's plunger while another platform holds the body steady. Basic syringe pumps simply dispense liquid at a set rate controlled by the speed of the motor. Still, more sophisticated and expensive models are programmable and offer more control over the motion of the syringe. Syringe pumps are used medically to administer medication at a constant speed over long periods of time and in laboratories to perform complex routines and move small volumes of liquid with great precision. Given their typical price and ultimately simple design, syringe pumps are the ideal project for an efficient do-it-yourself alternative, especially with some knowledge of 3D printing and electrical prototyping.
-* **Project Description and Objective:** The given constraints the syringe pump needed to meet were that it must be driven by a stepper motor rotating a lead screw. The design should be able to accommodate a 10 mL and 20 mL syringe pump without requiring any special tools for changing the size of the syringe and prevent sagging during motion. Furthermore, for the electrical components, the design must include a latching button to start and pause the motion of the pump, as well as a limit switch to stop the motion once the plunger reaches its limit. The flow rate of the pump must also be easily adjustable in the Arduino program. There must also be an LED that turns green to indicate the pump is running, yellow when pauses, and red when fully plunged. The electrical wiring for these components and the breadboard must be protected from the user and the potential spillage of liquids. All the elements must be assembled into one unit, and must be fit together using only fasteners and non-permanent snap fits. There must also be some element of unique branding to distinguish the design. Practical limitations include that components like the motor mounting plate must be able to withstand high temperatures from the stepper motor and be strong enough to support the motion. This indicated that ABS should be used for these components, which makes for longer print times than PLA. Furthermore, for ease of adjusting the electrical components, the electrical box must be easy to open and close. This especially comes into play for incorporating the optional elements and preparing the original design for ability to improve and expand functionality. However, the syringe pump must still be a single, stable unit that stays together when lifted by the pump holding components. 
+* **What are Print-in-Place Parts?** “Print-in-place models are functional, multiple-component designs that work immediately after removal from the print bed, and no post-processing or assembly is required. These can be created through single material extrusion by carefully designing models and orienting the print to allow for clearance between printed joints where motion or rotation is needed. However, even with optimized print settings, these models can be plagued by crunchy movement due to irregularities of plastic extrusion. Another method to obtain useful motion is to include a flexible element in the model, whether that is a thin piece of rigid plastic or a second elastomeric material” (Florian, 2025). Pros about print-in-place parts is that they’re typically more functional parts due to the different rigidities of plastics used and they can be multi-colored. A common application for print-in-place includes needle nose pliers, which is the project you will read about shortly. Specifically, our pliers had to be capable of gripping and picking up through-hole resistors and use a flexible material for the spring component that returns them to their open position when not in use. Other applications where print-in-place has been used is for 3D printable print-in-place gear bearings. 3D printing typically struggles with printing a standard ball bearing, so this print-in-place printable gear replaces balls with gears that lock together because FDM 3D printers typically aren’t great at printing spheres, and adding outside pieces, like metal balls, adds to the overall construction time. In addition, print-in-place can also make sliding bolt locks. This piece can be printed entirely at once, but if preferred, can be printed with individual parts to have spheres available (Garbett, 2022). Popular material combinations for print-in-place include PLA (rigid) and TPU (elastic), PLA and PVA with water soluble supports, ABS and HIPs, as well as fresh and recycled material. For the pliers project, I used PLA and TPU together to provide me with the needed strength and flexibility for maximum efficiency. 
+* **Project Description and Objective:**  
 
 # About the Design and Iterative Process
 
-* **Step 1:** Place 10 mL or 20 mL in corresponding holes. The 10 mL holes are on the front side of the pump, and the 20 mL holes are towards the back side.
-* **Step 2:** Press the black button, third from the left, to start the motion of the pump at 5 mL/min for a 20 mL syringe. To pause, press this button again. Motion will automatically stop when the syringe is empty.
-* **Step 3:** To adjust the motion for a 10 mL syringe, press the red button directly to the right of the black button (the fourth button from the left).
-* **Step 4:** Press and hold the first button to manually move forward. Press and hold the second button to manually move backward.
-* **Step 5:** To set the speed using the knob, press the rightmost red button (5th from the left) and rotate the knob right to increase speed and left to decrease speed.
-* **Step 6:** Due to prototyping limitations, the remote must be powered using a micro USB cable connected to a laptop or similar device. For future iterations, the remote will have a stand-alone power source. To turn on the syringe, flip the switch to the on position. To pause the syringe, flip it to the off position. 
-
-# Relevant Specifications
+* **The spring component in the pliers is made from the central piece of the pliers, which was made with TPU, an elastic material that allows for flexibility within the model. In order for this middle piece to be flexible, a rectilinear grid using Superslicer was implemented at an angle for shear behavior to allow the pliers to return to their original position. If this middle piece was made with PLA, a rigid plastic, there would be no shear behavior because the material is too stiff to bend in any direction without breaking. For the PLA components of the pliers to fig snugly into the TPU central piece, I used form fitting dovetail joints in my CAD model. In order to print these pieces, I used a multi-material single extrude printer where I printed all the PLA pieces first, then printed the TPU piece separately. The jaws of my pliers were approximately 33mm long, and because of the slender and lightweight design of the pliers, its jaw capacity was fairly light. Fortunately, I only had to print my pliers once, and they turned out to be successful without having to reprint.**
 
 # CAD Model
  <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4861c499e3a15f65e?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-# Off-the-Shelf Parts Required
-
-| Part | Quantity Required |
-| :-- | :-- |
-| 250 mm lead screw with 2 mm pitch and 2 mm lead | 1 |
-| 250 mm lead screw with 2 mm pitch and 8 mm lead | 1 | 
-| 1/4" x 8mm Flexible Coupling | 1 |
-| 200 mm linear rod with 8 mm diameter | 2 |
-| LM8UU linear bearing for 8 mm diameter rod | 2 |
-| 2040 aluminum extrusion 1' length | 1 | 
-| nema 17 stepper motor | 1 | 
-| MEAN WELL RQ-65D AC-DC power supply quad output 5V 12V 24V 12V 4 Amp | 1 | 
-| Arduino Uno | 1 | 
-| A4988 Stepper Driver | 1 | 
-| small breadboard | 1 | 
-| panel mount latching push buttons (on/off | 1 | 
-| panel mount momentary push buttons | 1 |
-| limit switch | 1 | 
-| RBG common cathode LED | supplied by group |
-
-# 3D Printed Parts Required
-
-| Part | Quantity Required |
-| :-- | :-- |
-| Carriage | 1 | 
-| Motor Mounting Plate | 1 | 
-| Syringe End Support | 1 | 
-| Regular End Support | 1 | 
-| Enclosure | 1 | 
-| Enclosure Lid | 1 |
-| Remote Box Lid | 1 | 
-| Remote Box | 1 | 
-
 {% include gallery caption="Pliers with CAD Renderings" %}
+
+# Works Cited
+Garbett, Samuel L. “Learn Print-in-Place 3D Printing with These 7 Projects.” MUO, Valnet, 8 Sept. 2022, www.makeuseof.com/print-in-place-3d-printer-projects/. 
