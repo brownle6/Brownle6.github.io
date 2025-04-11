@@ -2,8 +2,8 @@
 title: "Top-Down Modeled Bike Phone Holder"
 excerpt: "Filament-Printed Bike Phone Holder with Rotating Detent Mechanism"
 header:
-  image: /assets/img/pliersteal1.png  
-teaser: /assets/img/pliersfullbody.png 
+  image: /assets/img/bikeholderrendering2.png  
+teaser: /assets/img/bikeholderrendering2.png 
 gallery:
   - image_path: /assets/img/mountedonbike.png
   - image_path: /assets/img/sideview.png
