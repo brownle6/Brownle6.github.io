@@ -13,6 +13,11 @@ gallery:
   - image_path: /assets/img/phoneholder.GIF
   - image_path: /assets/img/sideanalysis.png
   - image_path: /assets/img/detentanalysis.png
+  - image_path: /assets/img/2.png
+  - image_path: /assets/img/3.png
+  - image_path: /assets/img/4.png
+  - image_path: /assets/img/1.png
+
 ---
 
 # Description
