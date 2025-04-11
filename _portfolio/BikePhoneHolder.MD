@@ -11,7 +11,8 @@ gallery:
   - image_path: /assets/img/lid.png
   - image_path: /assets/img/sidedetent.png
   - image_path: /assets/img/phoneholder.GIF
-
+ - image_path: /assets/img/sideanalysis.png
+ - image_path: /assets/img/detentanalysis.png
 ---
 
 # Description
