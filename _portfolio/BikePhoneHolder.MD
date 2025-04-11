@@ -1,14 +1,16 @@
 ---
-title: "Filament-Printed Multi-Material Print-in-Place Pliers"
-excerpt: "Filament-Printed Multi-Material Print-in-Place Pliers without Excessive Pieces"
+title: "Top-Down Modeled Bike Phone Holder"
+excerpt: "Filament-Printed Bike Phone Holder with Rotating Detent Mechanism"
 header:
   image: /assets/img/pliersteal1.png  
 teaser: /assets/img/pliersfullbody.png 
 gallery:
-  - image_path: /assets/img/pliersfullbody.png
-  - image_path: /assets/img/plierswhite.png
-  - image_path: /assets/img/pliersangle.png
-  - image_path: /assets/img/pliers.GIF
+  - image_path: /assets/img/mountedonbike.png
+  - image_path: /assets/img/sideview.png
+  - image_path: /assets/img/detent.png
+  - image_path: /assets/img/lid.png
+  - image_path: /assets/img/sidedetent.png
+  - image_path: /assets/img/phoneholder.GIF
 
 ---
 
