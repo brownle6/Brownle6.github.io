@@ -34,6 +34,6 @@ The set up/assembly of my model is fairly simple to put together and take apart.
 * **During the printing process, I had to reprint the detent mechanism component because I originally accounted for the wrong width of the spring, so the spring didn’t fit in its extruded compartment when I first tried to screw on the lid. In addition, I had to modify the shape of the part that attached directly to the bike handle bars because I originally made it too big, causing the phone holder to slip out of place. I printed all but one of the components in PLA so that the holder had proper rigidity to support the weight of my phone. The only part I printed in TPU was the phone case aspect of the design so that I could bend the corners of the case to allow my phone to fit properly.** 
 
 # CAD Model
- <iframe src="https://vanderbilt643.autodesk360.com/g/shares/SH286ddQT78850c0d8a41ed4e26a0af21fc5=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+ <iframe src="https://vanderbilt643.autodesk360.com/g/shares/SH286ddQT78850c0d8a41ed4e26a0af21fc5?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 {% include gallery caption="Printed Phone Holder Components, Section Analysis, and Digitally Rendered Phone Holder Components" %}
