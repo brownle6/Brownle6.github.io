@@ -1,16 +1,13 @@
 ---
 title: "Generatively Designed Lacrosse Stick Head"
-excerpt: "A powder printed lacrosse stick head functionally lightweighted through generative design "
+excerpt: "A powder printed lacrosse stick head functionally lightweighted through generative design"
 header:
-  image: /assets/img/syringe-pump-project.png  
-teaser: /assets/img/syringe-pump-project.png 
+  image: /assets/img/mainimagelacrosse.png  
+teaser: /assets/img/mainimagelacrosse.png 
 gallery:
-  - image_path: /assets/img/Carriage.png
-  - image_path: /assets/img/End-Support.png
-  - image_path: /assets/img/Enclosure.png
-  - image_path: /assets/img/Enclosure-Lid.png
-  - image_path: /assets/img/Remote-Box.png
-  - image_path: /assets/img/Remote-Box-Lid.png
+  - image_path: /assets/img/image3lacrosse.png
+  - image_path: /assets/img/image2lacrosse.png
+  - image_path: /assets/img/image4lacrosse.png
 
 ---
 
