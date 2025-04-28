@@ -8,6 +8,9 @@ gallery:
   - image_path: /assets/img/image3lacrosse.png
   - image_path: /assets/img/image2lacrosse.png
   - image_path: /assets/img/image4lacrosse.png
+  - image_path: /assets/img/image3lacrosse.png
+  - image_path: /assets/img/image2lacrosse.png
+  - image_path: /assets/img/image4lacrosse.png
 
 ---
 
@@ -47,4 +50,4 @@ mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscree
 | Direct Force | 150.296 N | Added Pocket Lining | 
 | Direct Moment | 4.00 N m | Base/Neck of Object |
 
-{% include gallery caption="Dimensioned Drawings" %}
+{% include gallery caption="IDK YET" %}
