@@ -7,10 +7,10 @@ teaser: /assets/img/mainimagelacrosse.png
 gallery:
   - image_path: /assets/img/preserve.png
   - image_path: /assets/img/obstacle.png
+  - image_path: /assets/img/GD.png
   - image_path: /assets/img/printedhead.png
   - image_path: /assets/img/head2.png
   - image_path: /assets/img/head5.png
-  - image_path: /assets/img/head4.png
 
 ---
 
