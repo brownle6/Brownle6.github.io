@@ -50,4 +50,4 @@ mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscree
 | Direct Force | 150.296 N | Added Pocket Lining | Catching, Throwing, Shooting
 | Direct Moment | 4.00 N m | Base/Neck of Object | Cradling, Getting Checked
 
-{% include gallery caption="Preserved and Obstacle Geometries, Printed Stick Head" %}
+{% include gallery caption="Preserved and Obstacle Geometries, Generative Design Iterations, Printed Stick Head" %}
