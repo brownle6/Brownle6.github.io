@@ -5,12 +5,12 @@ header:
   image: /assets/img/mainimagelacrosse.png  
 teaser: /assets/img/mainimagelacrosse.png 
 gallery:
-  - image_path: /assets/img/image3lacrosse.png
-  - image_path: /assets/img/image2lacrosse.png
-  - image_path: /assets/img/image4lacrosse.png
-  - image_path: /assets/img/image3lacrosse.png
-  - image_path: /assets/img/image2lacrosse.png
-  - image_path: /assets/img/image4lacrosse.png
+  - image_path: /assets/img/preserve.png
+  - image_path: /assets/img/obstacle.png
+  - image_path: /assets/img/printedhead.png
+  - image_path: /assets/img/head2.png
+  - image_path: /assets/img/head5.png
+  - image_path: /assets/img/head4.png
 
 ---
 
@@ -45,9 +45,9 @@ mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscree
 
 | Name of Force | Magnitude | Location of Force Application | Short Rational |
 | :-- | :-- | :-- | :-- | 
-| Gravity | 9.807 m/s^2 | Entirety of Object | 
-| Direct Force | 100.00 N | Bottom Scoop Edge | 
-| Direct Force | 150.296 N | Added Pocket Lining | 
-| Direct Moment | 4.00 N m | Base/Neck of Object |
+| Gravity | 9.807 m/s^2 | Entirety of Object | Standard for All Models
+| Direct Force | 100.00 N | Bottom Scoop Edge | Ground Ball Impact 
+| Direct Force | 150.296 N | Added Pocket Lining | Catching, Throwing, Shooting
+| Direct Moment | 4.00 N m | Base/Neck of Object | Cradling, Getting Checked
 
-{% include gallery caption="IDK YET" %}
+{% include gallery caption="Preserved and Obstacle Geometries, Printed Stick Head" %}
