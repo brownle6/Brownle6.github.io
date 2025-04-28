@@ -12,3 +12,5 @@ My digital fabrication projects:
 <img src="/assets/img/syringe-pump-project.png" alt="Lauren Brown" style="wdith:100px;"/>
 <img src="/assets/img/pliersfullbody.png" alt="Lauren Brown" style="wdith:50px;"/>
 <img src="/assets/img/cadmodel.png" alt="Lauren Brown" style="wdith:100px;"/>
+<img src="/assets/img/cadmodel.png" alt="Lauren Brown" style="wdith:100px;"/>
+<img src="/assets/img/cadmodel.png" alt="Lauren Brown" style="wdith:100px;"/>
